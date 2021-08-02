@@ -27,12 +27,6 @@
           "settings": {
           }
         },
-        "fc8aa3c6-5a46-4a9d-843f-13cc5b30abd6": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "this is app snippet"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -66,7 +60,6 @@
         "title",
         "subtitle",
         "price",
-        "fc8aa3c6-5a46-4a9d-843f-13cc5b30abd6",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
