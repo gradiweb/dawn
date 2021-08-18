@@ -156,12 +156,26 @@
       }
     },
     "currency_format": {
-      "name":"Currency format",
+      "name": "Currency format",
       "settings": {
         "content": "Currency codes",
         "paragraph": "Cart and checkout prices always show currency codes. Example: $1.00 USD.",
         "currency_code_enabled": {
           "label": "Show currency codes"
+        }
+      }
+    },
+    "layout": {
+      "name": "Layout",
+      "settings": {
+        "page_width": {
+          "label": "Maximum width",
+          "options__1": {
+            "label": "1200px"
+          },
+          "options__2": {
+            "label": "1600px"
+          }
         }
       }
     }
@@ -410,7 +424,8 @@
       "name": "Custom Liquid",
       "settings": {
         "custom_liquid": {
-          "label": "Custom Liquid"
+          "label": "Custom Liquid",
+          "info": "Add app snippets or other Liquid code to create advanced customizations."
         }
       },
       "presets": {
@@ -489,6 +504,9 @@
         "add_image_padding": {
           "label": "Add padding"
         },
+        "show_image_outline": {
+          "label": "Show image outline"
+        },
         "show_vendor": {
           "label": "Show vendor"
         }
@@ -505,7 +523,7 @@
           "settings": {
             "heading": {
               "label": "Heading",
-              "info": "A heading is required to display the menu."
+              "info": "Heading required to display the menu."
             },
             "menu": {
               "label": "Menu",
@@ -598,7 +616,7 @@
           "label": "Custom logo width"
         },
         "logo_position": {
-          "label": "Logo position on large screen",
+          "label": "Logo position on large screens",
           "options__1": {
             "label": "Middle left"
           },
@@ -833,6 +851,9 @@
         "share": {
           "name": "Share",
           "settings": {
+            "text": {
+              "label": "Text"
+            },
             "featured_image_info": {
               "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
@@ -934,6 +955,9 @@
         "add_image_padding": {
           "label": "Add image padding"
         },
+        "show_image_outline": {
+          "label": "Show image outline"
+        },
         "show_vendor": {
           "label": "Show vendor"
         },
@@ -949,6 +973,9 @@
         },
         "enable_sort": {
           "label": "Enable sorting"
+        },
+        "collapse_on_larger_devices": {
+          "label": "Collapse on larger screens"
         }
       }
     },
@@ -1135,11 +1162,23 @@
         "share": {
           "name": "Share",
           "settings": {
+            "text": {
+              "label": "Text"
+            },
             "featured_image_info": {
               "content": "If you include a link in social media posts, the page’s featured image will be shown as the preview image. [Learn more](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
               "content": "A store title and description are included with the preview image. [Learn more](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+            }
+          }
+        },
+        "custom_liquid": {
+          "name": "Custom liquid",
+          "settings": {
+            "custom_liquid": {
+              "label": "Custom liquid",
+              "info": "Add app snippets or other Liquid code to create advanced customizations."
             }
           }
         },
@@ -1278,6 +1317,9 @@
         },
         "add_image_padding": {
           "label": "Add image padding"
+        },
+        "show_image_outline": {
+          "label": "Show image outline"
         },
         "show_vendor": {
           "label": "Show vendor"
@@ -1473,6 +1515,9 @@
         },
         "add_image_padding": {
           "label": "Add image padding"
+        },
+        "show_image_outline": {
+          "label": "Show image outline"
         },
         "show_vendor": {
           "label": "Show vendor"
