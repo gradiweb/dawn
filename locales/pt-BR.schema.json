@@ -64,6 +64,12 @@
         "type_body_font": {
           "label": "Fonte",
           "info": "A seleção de uma fonte diferente pode afetar a velocidade da loja. [Saiba mais sobre as fontes do sistema.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+        },
+        "heading_scale": {
+          "label": "Escala de tamanho da fonte"
+        },
+        "body_scale": {
+          "label": "Escala de tamanho da fonte"
         }
       }
     },
@@ -253,7 +259,7 @@
           "label": "Título"
         },
         "desktop_layout": {
-          "label": "Layout para computador",
+          "label": "Layout para desktop",
           "options__1": {
             "label": "Bloco grande esquerdo"
           },
@@ -473,7 +479,7 @@
         },
         "show_image": {
           "label": "Exibir imagem em destaque",
-          "info": "Use uma imagem com proporção 2:3 para ter os melhores resultados. [Saiba mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Use uma imagem com proporção 3:2 para alcançar os melhores resultados. [Saiba mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "soft_background": {
           "label": "Exibir plano de fundo secundário"
@@ -704,7 +710,7 @@
           "options__3": {
             "label": "Abaixo"
           },
-          "label": "Posição do texto no computador"
+          "label": "Posição do texto no desktop"
         },
         "color_scheme": {
           "options__1": {
@@ -723,16 +729,17 @@
             "label": "Inverso"
           },
           "label": "Esquema de cores",
-          "info": "Visível quando a caixa de texto é exibida"
+          "info": "Usado para a caixa de texto."
         },
         "stack_images_on_mobile": {
           "label": "Empilhar imagens em dispositivos móveis"
         },
         "adapt_height_first_image": {
-          "label": "Adaptar a altura da seção para o tamanho da primeira imagem"
+          "label": "Adaptar a altura da seção para o tamanho da primeira imagem",
+          "info": "Quando marcada, substitui a configuração de altura para o banner da imagem."
         },
         "show_text_box": {
-          "label": "Exibir caixa de texto no computador"
+          "label": "Exibir caixa de texto no desktop"
         },
         "image_overlay_opacity": {
           "label": "Opacidade de sobreposição de imagem"
@@ -742,6 +749,19 @@
         },
         "show_text_below": {
           "label": "Exibir texto abaixo de imagens"
+        },
+        "image_height": {
+          "label": "Altura do banner",
+          "options__1": {
+            "label": "Pequena"
+          },
+          "options__2": {
+            "label": "Média"
+          },
+          "options__3": {
+            "label": "Grande"
+          },
+          "info": "Use uma imagem com proporção 3:2 para alcançar os melhores resultados. [Saiba mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       },
       "blocks": {
@@ -843,7 +863,7 @@
           "options__2": {
             "label": "Texto primeiro"
           },
-          "label": "Layout para computador",
+          "label": "Layout para desktop",
           "info": "O layout padrão para dispositivos móveis coloca a imagem primeiro."
         }
       },
@@ -942,8 +962,7 @@
           "content": "Cartão de post do blog"
         },
         "show_image": {
-          "label": "Exibir imagem em destaque",
-          "info": "Use uma imagem com proporção 2:3 para ter os melhores resultados. [Saiba mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "label": "Exibir imagem em destaque"
         },
         "paragraph": {
           "content": "Edite os posts do blog para alterar os resumos. [Saiba mais](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
@@ -977,7 +996,7 @@
           "options__4": {
             "label": "Grande"
           },
-          "info": "Use uma imagem com proporção 2:3 para ter os melhores resultados. [Saiba mais.](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Use uma imagem com proporção 3:2 para alcançar os melhores resultados. [Saiba mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1083,7 +1102,7 @@
           "label": "Título"
         },
         "sort": {
-          "label": "Organizar coleções por:",
+          "label": "Ordenar coleções por:",
           "options__1": {
             "label": "Ordem alfabética, A–Z"
           },
@@ -1863,6 +1882,103 @@
       },
       "presets": {
         "name": "Produto em destaque"
+      }
+    },
+    "email-signup-banner": {
+      "name": "Banner de assinante de e-mail",
+      "settings": {
+        "paragraph": {
+          "content": "Cada assinatura por e-mail cria uma conta de cliente. [Saiba mais](https://help.shopify.com/en/manual/customers)"
+        },
+        "image": {
+          "label": "Imagem de fundo"
+        },
+        "show_background_image": {
+          "label": "Exibir imagem de fundo"
+        },
+        "desktop_text_box_position": {
+          "options__1": {
+            "label": "Acima"
+          },
+          "options__2": {
+            "label": "Centro"
+          },
+          "options__3": {
+            "label": "Abaixo"
+          },
+          "label": "Posição do texto no desktop"
+        },
+        "show_text_box": {
+          "label": "Exibir caixa de texto no desktop"
+        },
+        "image_overlay_opacity": {
+          "label": "Opacidade de sobreposição de imagem"
+        },
+        "color_scheme": {
+          "options__1": {
+            "label": "Destaque 1"
+          },
+          "options__2": {
+            "label": "Destaque 2"
+          },
+          "options__3": {
+            "label": "Plano de fundo 1"
+          },
+          "options__4": {
+            "label": "Plano de fundo 2"
+          },
+          "options__5": {
+            "label": "Inverso"
+          },
+          "label": "Esquema de cores",
+          "info": "Visível quando a caixa de texto é exibida"
+        },
+        "show_text_below": {
+          "label": "Exibir texto abaixo da imagem em dispositivos móveis"
+        },
+        "adapt_height_image": {
+          "label": "Adaptar altura do banner à imagem"
+        },
+        "image_height": {
+          "label": "Altura do banner",
+          "options__1": {
+            "label": "Adaptar à imagem"
+          },
+          "options__2": {
+            "label": "Pequena"
+          },
+          "options__3": {
+            "label": "Média"
+          },
+          "options__4": {
+            "label": "Grande"
+          },
+          "info": "Use uma imagem com proporção 16:9 para ter os melhores resultados. [Saiba mais](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Título",
+          "settings": {
+            "heading": {
+              "label": "Título"
+            }
+          }
+        },
+        "paragraph": {
+          "name": "Parágrafo",
+          "settings": {
+            "paragraph": {
+              "label": "Descrição"
+            }
+          }
+        },
+        "email_form": {
+          "name": "Formulário de e-mail"
+        }
+      },
+      "presets": {
+        "name": "Banner de assinante de e-mail"
       }
     }
   }
